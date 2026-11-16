@@ -1,0 +1,36 @@
+{
+  "name": "@seedess/core",
+  "version": "0.1.0",
+  "description": "Player-agnostic peer-assisted delivery core: WebRTC segment mesh, signaling and verification.",
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": false,
+  "main": "./src/index.js",
+  "module": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "keywords": [
+    "p2p",
+    "webrtc",
+    "peer-assisted",
+    "video",
+    "seedess"
+  ],
+  "scripts": {
+    "check": "node scripts/check.js",
+    "prepack": "npm run check"
+  },
+  "homepage": "https://seedess.com/docs/libraries/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Seedess/core.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Seedess/core/issues"
+  }
+}
