@@ -32,3 +32,5 @@ import { SegmentMesh, Signaling, sha256Hex } from '@seedess/core';
 - [`@seedess/p2p`](../p2p) — universal entry that picks an adapter.
 
 Player adapters own the integration seam. The core owns the bytes.
+
+Docs: https://seedess.com/docs/libraries/ · Issues: https://github.com/Seedess/core/issues
